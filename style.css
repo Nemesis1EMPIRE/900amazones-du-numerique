@@ -563,5 +563,42 @@ footer p{
     }
 }
 
+/* Ajustements mobiles supplémentaires */
+@media (max-width: 320px) {
+    body {
+        font-size: 0.8rem; /* Réduire la taille de la police */
+    }
+
+    .logo {
+        font-size: 1.2rem; /* Réduire la taille du logo */
+    }
+
+    .home-title {
+        font-size: 1.8rem;
+    }
+
+    .home-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .btn2 {
+        padding: 8px 20px; /* Réduire le padding */
+        font-size: 0.8rem;
+    }
+
+    .about .contentBx {
+        padding: 10px; /* Réduire l'espacement interne */
+        text-align: justify; /* Maintenir l'alignement du texte */
+    }
+
+    .footer-container .sec {
+        margin-bottom: 30px; /* Ajustement des marges */
+    }
+
+    footer {
+        padding: 20px; /* Réduire la taille du padding */
+        font-size: 0.8rem;
+    }
+}
 
 
